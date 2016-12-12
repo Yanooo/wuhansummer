@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* 公共部分 */
+html{
+	font-size:62.5%;
+}
+body{
+	font-family: Helvetica, Tahoma, Arial, STXihei, "华文细黑", "Microsoft YaHei", "微软雅黑", SimSun, "宋体", Heiti, "黑体", sans-serif;
+	font-size:1.2em;
+	line-height:1.5;
+	color:#666;
+	overflow-x:hidden;
+}
+body,form{
+	margin:0px;
+	padding:0px;
+}
+img{
+	border:none;vertical-align:middle;
+}
+a{
+	text-decoration:none;
+	color:#666; /*根据页面配色风格设定*/
+}
+a:hover{
+	color:#036; /*根据页面配色风格设定*/
+}
+input,textarea{
+	outline:none;
+	vertical-align:middle;
+}
+input,textarea,select{
+	font-size:100%;
+}
+textarea{
+	resize:none;
+	overflow-y:auto;
+}
+input[type="submit"],input[type="reset"],input[type="button"]{
+	cursor:pointer;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight:normal;
+	line-height:1em;
+	padding:0;
+	margin:0;}
+h1{
+	font-size:36px;
+}
+h2{
+	font-size:30px;
+}
+h3{
+	font-size:24px;
+}
+h4{
+	font-size:18px;
+}
+h5{
+	font-size:16px;
+}
+h6{
+	font-size:14px;
+}
+hr{
+	border:none;
+	border-top:1px solid #dacab1;
+	margin:40px 0 0;
+}
+li,ul,dt,dd{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+.clearfix:after{
+	content:"";
+	height:0;
+	visibility:hidden;
+	display:block;
+	clear:both;}
+.clearfix{
+	display:inline-block;
+}
+.clearfix{
+	display:block;
+}
+.wrapper{
+	position:relative;
+}
+.container{
+	width:1000px; /*根据页面实际宽度设定*/
+	margin:0 auto;
+}
+
+
